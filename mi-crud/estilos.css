@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; margin: 25px; }
+.contenedor { max-width: 1000px; margin: auto; }
+.tarjetas { display: flex; gap: 12px; margin: 20px 0; }
+.tarjeta { border: 1px solid #ccc; padding: 10px 18px; flex: 1; }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+input, select { display: block; margin: 5px 0 12px; padding: 6px; }
+button { padding: 6px 10px; cursor: pointer; }
+.form-eliminar { display: inline; }
+.mensaje { color: green; }
+.error { color: red; }
+.buscador input { display: inline-block; }
